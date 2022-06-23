@@ -1,0 +1,624 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <NonVisualComponents>
+    <Component class="javax.swing.ButtonGroup" name="buttonGroup1">
+    </Component>
+    <Component class="javax.swing.ButtonGroup" name="buttonGroup2">
+    </Component>
+    <Component class="javax.swing.ButtonGroup" name="buttonGroup3">
+    </Component>
+    <Component class="javax.swing.ButtonGroup" name="buttonGroup4">
+    </Component>
+    <Component class="javax.swing.ButtonGroup" name="buttonGroup5">
+    </Component>
+    <Component class="javax.swing.ButtonGroup" name="buttonGroup6">
+    </Component>
+    <Component class="javax.swing.ButtonGroup" name="buttonGroup7">
+    </Component>
+    <Component class="javax.swing.ButtonGroup" name="buttonGroup8">
+    </Component>
+    <Component class="javax.swing.ButtonGroup" name="buttonGroup9">
+    </Component>
+  </NonVisualComponents>
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <Component id="jPanel2" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jPanel3" max="32767" attributes="0"/>
+              <EmptySpace min="-2" pref="32" max="-2" attributes="0"/>
+          </Group>
+          <Group type="102" attributes="0">
+              <EmptySpace min="-2" pref="337" max="-2" attributes="0"/>
+              <Component id="jButton1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="32767" attributes="0"/>
+          </Group>
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jScrollPane1" max="32767" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+          <Component id="jPanel1" alignment="0" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <Component id="jPanel1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="jPanel2" min="-2" max="-2" attributes="0"/>
+                  <Component id="jPanel3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jButton1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jScrollPane1" pref="282" max="32767" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="jPanel1">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ff" green="ff" red="ff" type="rgb"/>
+        </Property>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="32767" attributes="0"/>
+                  <Component id="YbsHavaYolları" min="-2" pref="256" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="36" max="-2" attributes="0"/>
+                  <Component id="Resim" min="-2" pref="224" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="26" max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" attributes="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="51" max="-2" attributes="0"/>
+                          <Component id="YbsHavaYolları" min="-2" pref="51" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="Resim" min="-2" pref="114" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <EmptySpace pref="28" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="YbsHavaYollar&#x131;">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Ink Free" size="24" style="3"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="YBS HAVA YOLLARI"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="Resim">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+            </Property>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="2" name="C:\Users\mildi\OneDrive\Masa&#xfc;st&#xfc;\indir.png"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="jLabel14"/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JPanel" name="jPanel2">
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" attributes="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="YolcuBilgileri" min="-2" pref="124" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="15" pref="15" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                              <Component id="Cinsiyet" max="32767" attributes="0"/>
+                              <Component id="AdıSoyadı" max="32767" attributes="0"/>
+                              <Component id="Tc" alignment="0" max="32767" attributes="0"/>
+                              <Component id="Tel" alignment="0" min="-2" pref="60" max="-2" attributes="0"/>
+                              <Component id="HesKodu" alignment="0" max="32767" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                  <Component id="AdSoyadText" alignment="0" pref="196" max="32767" attributes="0"/>
+                                  <Component id="TcText" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="TelText" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="HesKoduText" alignment="0" max="32767" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="Erkek" min="-2" pref="98" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="Kadın" min="-2" pref="98" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                  </Group>
+                  <EmptySpace pref="92" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="YolcuBilgileri" min="-2" pref="16" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="8" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="AdıSoyadı" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="AdSoyadText" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="Tc" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="TcText" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="Tel" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="TelText" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="HesKodu" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="HesKoduText" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="Cinsiyet" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="Erkek" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="Kadın" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace pref="102" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="Ad&#x131;Soyad&#x131;">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Ad&#x131; Soyad&#x131; : "/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="Tc">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Tc:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="Tel">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Tel : "/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="HesKodu">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Hes Kodu : "/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="AdSoyadText">
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="AdSoyadTextActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JTextField" name="TcText">
+          <Events>
+            <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="TcTextMouseClicked"/>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="TcTextActionPerformed"/>
+            <EventHandler event="keyTyped" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="TcTextKeyTyped"/>
+          </Events>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_SerializeTo" type="java.lang.String" value="NewJFrame_jTextField2"/>
+          </AuxValues>
+        </Component>
+        <Component class="javax.swing.JTextField" name="TelText">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="+90"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="HesKoduText">
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="HesKoduTextActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JLabel" name="YolcuBilgileri">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Georgia" size="14" style="3"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Yolcu Bilgileri"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="Cinsiyet">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Cinsiyet : "/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="Erkek">
+          <Properties>
+            <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+              <ComponentRef name="buttonGroup1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Erkek"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="ErkekActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="Kad&#x131;n">
+          <Properties>
+            <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+              <ComponentRef name="buttonGroup1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Kad&#x131;n"/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JPanel" name="jPanel3">
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" attributes="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="Nereden" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="Nereye" alignment="0" min="-2" pref="54" max="-2" attributes="0"/>
+                              <Component id="Tarih" alignment="0" min="-2" pref="54" max="-2" attributes="0"/>
+                              <Component id="Saat" alignment="0" min="-2" pref="54" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="-2" pref="37" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                              <Component id="NereyeCB" pref="0" max="32767" attributes="0"/>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <EmptySpace min="-2" pref="9" max="-2" attributes="0"/>
+                                  <Component id="SaatCB" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="jLabel13" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="DkCB" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <Component id="NeredenCB" alignment="0" min="-2" pref="200" max="-2" attributes="0"/>
+                              <Component id="jDateChooser1" max="32767" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <Component id="UçuşBilgileri" alignment="0" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace pref="87" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="UçuşBilgileri" min="-2" pref="16" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="Nereden" min="-2" max="-2" attributes="0"/>
+                      <Component id="NeredenCB" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="20" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="Nereye" min="-2" max="-2" attributes="0"/>
+                      <Component id="NereyeCB" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="Tarih" min="-2" max="-2" attributes="0"/>
+                      <Component id="jDateChooser1" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="Saat" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="SaatCB" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="DkCB" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jLabel13" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace pref="145" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="Nereden">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Nereden : "/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="Nereye">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Nereye : "/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="Tarih">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Tarih : "/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="Saat">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Saat : "/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="U&#xe7;u&#x15f;Bilgileri">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Georgia" size="14" style="3"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="U&#xe7;u&#x15f; Bilgileri"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JComboBox" name="NeredenCB">
+          <Properties>
+            <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+              <StringArray count="55">
+                <StringItem index="0" value="Esenbo&#x11f;a-Ankara"/>
+                <StringItem index="1" value="&#x130;stanbul-&#x130;stanbul"/>
+                <StringItem index="2" value="Sabiha G&#xf6;k&#xe7;en-&#x130;stanbul"/>
+                <StringItem index="3" value="Antalya-Antalya"/>
+                <StringItem index="4" value="Adnan Menderes-&#x130;zmir"/>
+                <StringItem index="5" value="Adana-Adana"/>
+                <StringItem index="6" value="Dalaman-Mu&#x11f;la"/>
+                <StringItem index="7" value="Milas-Bodrum-Mu&#x11f;la"/>
+                <StringItem index="8" value="Trabzon-Trabzon"/>
+                <StringItem index="9" value="Gaziantep-Gaziantep"/>
+                <StringItem index="10" value="Kayseri-Kayseri"/>
+                <StringItem index="11" value="Diyarbak&#x131;r-Diyarbak&#x131;r"/>
+                <StringItem index="12" value="Samsun &#xc7;ar&#x15f;amba-Samsun"/>
+                <StringItem index="13" value="Van Ferit Melen&#x9;-Van"/>
+                <StringItem index="14" value="Erzurum-Erzurum"/>
+                <StringItem index="15" value="Hatay-Hatay"/>
+                <StringItem index="16" value="Gazipa&#x15f;a-Antalya"/>
+                <StringItem index="17" value="Konya-Konya"/>
+                <StringItem index="18" value="Ordu-Giresun-Ordu"/>
+                <StringItem index="19" value="Elaz&#x131;&#x11f;-El&#xe2;z&#x131;&#x11f;"/>
+                <StringItem index="20" value="Malatya-Malatya"/>
+                <StringItem index="21" value="&#x15e;anl&#x131;urfa GAP-&#x15e;anl&#x131;urfa"/>
+                <StringItem index="22" value="Denizli &#xc7;ardak-Denizli"/>
+                <StringItem index="23" value="Sivas Nuri Demira&#x11f;-Sivas"/>
+                <StringItem index="24" value="Kars-Kars"/>
+                <StringItem index="25" value="Bal&#x131;kesir Koca Seyit-Bal&#x131;kesir&#x9;"/>
+                <StringItem index="26" value="Kapadokya-Nev&#x15f;ehir"/>
+                <StringItem index="27" value="Bursa Yeni&#x15f;ehir-Bursa"/>
+                <StringItem index="28" value="&#xc7;anakkale-&#xc7;anakkale"/>
+                <StringItem index="29" value="Sinop-Sinop"/>
+                <StringItem index="30" value="S&#xfc;leyman Demirel-Isparta"/>
+                <StringItem index="31" value="Tekirda&#x11f; &#xc7;orlu-Tekirda&#x11f;"/>
+                <StringItem index="32" value="Zafer-K&#xfc;tahya"/>
+                <StringItem index="33" value="Hasan Polatkan&#x9;-Eski&#x15f;ehir"/>
+                <StringItem index="34" value="Kocaeli Cengiz Topel-Kocaeli"/>
+                <StringItem index="35" value="Zonguldak &#xc7;aycuma-Zonguldak"/>
+                <StringItem index="36" value="U&#x15f;ak-U&#x15f;ak"/>
+                <StringItem index="37" value="Mardin-Mardin"/>
+                <StringItem index="38" value="Batman-Batman"/>
+                <StringItem index="39" value="Erzincan-Erzincan"/>
+                <StringItem index="40" value="Mu&#x15f; Sultan Alparslan-Mu&#x15f;"/>
+                <StringItem index="41" value="&#x15e;&#x131;rnak &#x15e;erafettin El&#xe7;i-&#x15e;&#x131;rnak"/>
+                <StringItem index="42" value="Kahramanmara&#x15f;-Kahramanmara&#x15f;"/>
+                <StringItem index="43" value="A&#x11f;r&#x131; Ahmed-i Hani-A&#x11f;r&#x131;"/>
+                <StringItem index="44" value="I&#x11f;d&#x131;r &#x15e;ehit B&#xfc;lent Ayd&#x131;n-I&#x11f;d&#x131;r"/>
+                <StringItem index="45" value="Ad&#x131;yaman-Ad&#x131;yaman&#x9;"/>
+                <StringItem index="46" value="Bing&#xf6;l-Bing&#xf6;l&#x9;"/>
+                <StringItem index="47" value="Y&#xfc;ksekova Selahaddin Eyyubi-Hakkari"/>
+                <StringItem index="48" value="Amasya Merzifon-Amasya&#x9;"/>
+                <StringItem index="49" value="Kastamonu-Kastamonu&#x9;"/>
+                <StringItem index="50" value="Siirt-Siirt"/>
+                <StringItem index="51" value="Tokat-Tokat&#x9;"/>
+                <StringItem index="52" value="Ayd&#x131;n &#xc7;&#x131;ld&#x131;r-Ayd&#x131;n"/>
+                <StringItem index="53" value="Bal&#x131;kesir Merkez-Bal&#x131;kesir"/>
+                <StringItem index="54" value="&#xc7;anakkale G&#xf6;k&#xe7;eada-&#xc7;anakkale"/>
+              </StringArray>
+            </Property>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+          </AuxValues>
+        </Component>
+        <Component class="javax.swing.JComboBox" name="NereyeCB">
+          <Properties>
+            <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+              <StringArray count="55">
+                <StringItem index="0" value="&#x130;stanbul-&#x130;stanbul"/>
+                <StringItem index="1" value="Sabiha G&#xf6;k&#xe7;en-&#x130;stanbul"/>
+                <StringItem index="2" value="Esenbo&#x11f;a-Ankara"/>
+                <StringItem index="3" value="Antalya-Antalya"/>
+                <StringItem index="4" value="Adnan Menderes-&#x130;zmir"/>
+                <StringItem index="5" value="Adana-Adana"/>
+                <StringItem index="6" value="Dalaman-Mu&#x11f;la"/>
+                <StringItem index="7" value="Milas-Bodrum-Mu&#x11f;la"/>
+                <StringItem index="8" value="Trabzon-Trabzon"/>
+                <StringItem index="9" value="Gaziantep-Gaziantep"/>
+                <StringItem index="10" value="Kayseri-Kayseri"/>
+                <StringItem index="11" value="Diyarbak&#x131;r-Diyarbak&#x131;r"/>
+                <StringItem index="12" value="Samsun &#xc7;ar&#x15f;amba-Samsun"/>
+                <StringItem index="13" value="Van Ferit Melen&#x9;-Van"/>
+                <StringItem index="14" value="Erzurum-Erzurum"/>
+                <StringItem index="15" value="Hatay-Hatay"/>
+                <StringItem index="16" value="Gazipa&#x15f;a-Antalya"/>
+                <StringItem index="17" value="Konya-Konya"/>
+                <StringItem index="18" value="Ordu-Giresun-Ordu"/>
+                <StringItem index="19" value="Elaz&#x131;&#x11f;-El&#xe2;z&#x131;&#x11f;"/>
+                <StringItem index="20" value="Malatya-Malatya"/>
+                <StringItem index="21" value="&#x15e;anl&#x131;urfa GAP-&#x15e;anl&#x131;urfa"/>
+                <StringItem index="22" value="Denizli &#xc7;ardak-Denizli"/>
+                <StringItem index="23" value="Sivas Nuri Demira&#x11f;-Sivas"/>
+                <StringItem index="24" value="Kars-Kars"/>
+                <StringItem index="25" value="Bal&#x131;kesir Koca Seyit-Bal&#x131;kesir&#x9;"/>
+                <StringItem index="26" value="Kapadokya-Nev&#x15f;ehir"/>
+                <StringItem index="27" value="Bursa Yeni&#x15f;ehir-Bursa"/>
+                <StringItem index="28" value="&#xc7;anakkale-&#xc7;anakkale"/>
+                <StringItem index="29" value="Sinop-Sinop"/>
+                <StringItem index="30" value="S&#xfc;leyman Demirel-Isparta"/>
+                <StringItem index="31" value="Tekirda&#x11f; &#xc7;orlu-Tekirda&#x11f;"/>
+                <StringItem index="32" value="Zafer-K&#xfc;tahya"/>
+                <StringItem index="33" value="Hasan Polatkan&#x9;-Eski&#x15f;ehir"/>
+                <StringItem index="34" value="Kocaeli Cengiz Topel-Kocaeli"/>
+                <StringItem index="35" value="Zonguldak &#xc7;aycuma-Zonguldak"/>
+                <StringItem index="36" value="U&#x15f;ak-U&#x15f;ak"/>
+                <StringItem index="37" value="Mardin-Mardin"/>
+                <StringItem index="38" value="Batman-Batman"/>
+                <StringItem index="39" value="Erzincan-Erzincan"/>
+                <StringItem index="40" value="Mu&#x15f; Sultan Alparslan-Mu&#x15f;"/>
+                <StringItem index="41" value="&#x15e;&#x131;rnak &#x15e;erafettin El&#xe7;i-&#x15e;&#x131;rnak"/>
+                <StringItem index="42" value="Kahramanmara&#x15f;-Kahramanmara&#x15f;"/>
+                <StringItem index="43" value="A&#x11f;r&#x131; Ahmed-i Hani-A&#x11f;r&#x131;"/>
+                <StringItem index="44" value="I&#x11f;d&#x131;r &#x15e;ehit B&#xfc;lent Ayd&#x131;n-I&#x11f;d&#x131;r"/>
+                <StringItem index="45" value="Ad&#x131;yaman-Ad&#x131;yaman&#x9;"/>
+                <StringItem index="46" value="Bing&#xf6;l-Bing&#xf6;l&#x9;"/>
+                <StringItem index="47" value="Y&#xfc;ksekova Selahaddin Eyyubi-Hakkari"/>
+                <StringItem index="48" value="Amasya Merzifon-Amasya&#x9;"/>
+                <StringItem index="49" value="Kastamonu-Kastamonu&#x9;"/>
+                <StringItem index="50" value="Siirt-Siirt"/>
+                <StringItem index="51" value="Tokat-Tokat&#x9;"/>
+                <StringItem index="52" value="Ayd&#x131;n &#xc7;&#x131;ld&#x131;r-Ayd&#x131;n"/>
+                <StringItem index="53" value="Bal&#x131;kesir Merkez-Bal&#x131;kesir"/>
+                <StringItem index="54" value="&#xc7;anakkale G&#xf6;k&#xe7;eada-&#xc7;anakkale"/>
+              </StringArray>
+            </Property>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="NereyeCBActionPerformed"/>
+          </Events>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+          </AuxValues>
+        </Component>
+        <Component class="com.toedter.calendar.JDateChooser" name="jDateChooser1">
+        </Component>
+        <Component class="javax.swing.JComboBox" name="SaatCB">
+          <Properties>
+            <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+              <StringArray count="24">
+                <StringItem index="0" value="01"/>
+                <StringItem index="1" value="02"/>
+                <StringItem index="2" value="03"/>
+                <StringItem index="3" value="04"/>
+                <StringItem index="4" value="05"/>
+                <StringItem index="5" value="06"/>
+                <StringItem index="6" value="07"/>
+                <StringItem index="7" value="08"/>
+                <StringItem index="8" value="09"/>
+                <StringItem index="9" value="10"/>
+                <StringItem index="10" value="11"/>
+                <StringItem index="11" value="12"/>
+                <StringItem index="12" value="13"/>
+                <StringItem index="13" value="14"/>
+                <StringItem index="14" value="15"/>
+                <StringItem index="15" value="16"/>
+                <StringItem index="16" value="17"/>
+                <StringItem index="17" value="18"/>
+                <StringItem index="18" value="19"/>
+                <StringItem index="19" value="20"/>
+                <StringItem index="20" value="21"/>
+                <StringItem index="21" value="22"/>
+                <StringItem index="22" value="23"/>
+                <StringItem index="23" value="00"/>
+              </StringArray>
+            </Property>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+          </AuxValues>
+        </Component>
+        <Component class="javax.swing.JComboBox" name="DkCB">
+          <Properties>
+            <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+              <StringArray count="3">
+                <StringItem index="0" value="00"/>
+                <StringItem index="1" value="30"/>
+                <StringItem index="2" value="45"/>
+              </StringArray>
+            </Property>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="DkCBActionPerformed"/>
+          </Events>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+          </AuxValues>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel13">
+          <Properties>
+            <Property name="text" type="java.lang.String" value=":"/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JTextArea" name="jTextArea1">
+          <Properties>
+            <Property name="columns" type="int" value="20"/>
+            <Property name="rows" type="int" value="5"/>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+          </AuxValues>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JButton" name="jButton1">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ff" green="99" red="0" type="rgb"/>
+        </Property>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Georgia" size="14" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Onayla"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton1ActionPerformed"/>
+      </Events>
+    </Component>
+  </SubComponents>
+</Form>
